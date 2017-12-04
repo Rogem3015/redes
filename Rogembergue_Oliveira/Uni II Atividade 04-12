@@ -1,16 +1,21 @@
 Questões de Revisão:
 
 8.1
-___________________________________________________________________________________________________________________________________
+
 q01 - Confidencialidade é quando apenas o remetente e o destinatário podem compreender o conteúdo da mensagem, enquanto Integridade
 é quando não há alteração no conteúdo durante o trageto. Dessa forma, é possível ter uma comunição com Integridade e sem Confi -
 dencialidade, mas não o contrário.
 
 q02 - Celualar <---> Roteador
-     Modem <---> Computador
-     Cliente <---> Servidor 
+      Modem <---> Computador
+      Cliente <---> Servidor 
 ___________________________________________________________________________________________________________________________________
 
 8.3
+
+q18 - O ataque man-in-the-middle como o próprio nome sugere, é quando um invador se posiciona entre dois pares que estão se comu -
+nicando, interceptando mensagens, se passando por um dos envolvidos.
+      A utilização de chaves simétricas modernas incapacitaria este tipo de ataque, pois a possibilidade de chaves diferentes para
+criptografar os dados é muito grande.
 ___________________________________________________________________________________________________________________________________
-q18 - 
+
