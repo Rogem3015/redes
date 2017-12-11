@@ -1,0 +1,18 @@
+q1 - Não possivel acessar a página web devido ao "drop". A página fica em carregamento por tempo ilimitado.
+
+q2 - Após apagar a regra criada anteriormente (devido a uma questão de hierarquia), a página é bloqueada apenas para um determinado ip. Logo, todos os outros pc's 
+conseguem acessar a página exceto o que teve o ip "dropado".
+
+q3 - Na máquina cujo o ip está bloqueado pelo "drop", o terminal exibe "Trying" infinitamente, pois, diferente do REJECT, o drop
+não informa quando o ip está bloqueado.
+
+q4 - O telnet assim como ssh possibilitam o acesso remoto a uma determinada máquina. Contudo, o telnet não é tão seguro quanto o 
+ssh, pois os dados trafegam em texto puro, não criptografados, o que pode facilitar o roubo de informações sigilosas.
+
+     Dica (sem nexo): Quando quiser dar uma trollada no coleguinha de sala, sugere-se que você utilize o comando 
+"export DISPLAY=:0.0" após acessar o pc alheio com SSH. Isso fará com que os programas que você executar (wireshark, firefox, etc)
+no pc (dele), irá ser exibido no pc DELE. 
+
+                                                        Ps: Eu que descobri o comando depois de muita pesquisa em fóruns!
+                                                    
+q5 - O comando impede que outros pc's estabeleçam uma conexão remota com sua máquina.
